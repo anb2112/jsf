@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xfullBackupContent="@xml/backup_rules"
+    android:irtsRtl="true"
+    android:thememlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:="@style/Theme.AplicacaoBancoDeDados"
+        tools:targetApi="31">
+        <activity
+            android:name=".AlterarDados2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AlterarDadosActivity"
+            android:exported="false" />
+        <activity
+            androidcon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:
+                <caty
+                    android:name=".MainActivity"
+                    android:exported="true">
+            <intent-filter>
+                <acegory android:name="android.intent.category.LAUNCHER" />
+        activity>
+    </applicaroundIcon="@mipmap/ic_launcher_round"
+        android:suppo:name=".GravaRegistrosActivity"
+        android:exported="false" />
+                    <activity
+                        android:name=".F"
+                        android:exported="false" />
+                    <activittion android:name="android.intent.action.MAIN" />
+                    tion>
+
+</manif </intent-filter>
+        </est>

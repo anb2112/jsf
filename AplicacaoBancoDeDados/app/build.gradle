@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.aplicacaobancodedados'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.aplicacaobancodedados"
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), '\n' +
+                    '\n' +
+                    '        implementationroidx.colayout:2entation \'an.1.4\'\n' +
+                    '    testImplementation \'aterjuniandroid.mial:mat:junit:4.13.2\'presso-core:3.\n' +
+                    '    dx.test.ext:junit:1.1.5\\\'\\n\' +androidTestImplementation \\\\\\\'\n' +
+                    '        \'    androidTestImpleandroimentation \'and\\\'5.1\n' +
+                    '}roidx.test.espresso:esproguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+ 'androinstraintlayout:constraintdx.appcompat:appcompat:1.6.1'
+    implemencom.google.tetation \'rial:1.11.0'
+    implemddependencies {
